@@ -38,6 +38,72 @@ body::before {
     margin-bottom: 20px;
 }
 
+/* スマホ対応 */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        max-width: 350px;
+        padding: 25px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .hearts {
+        font-size: 16px !important;
+        letter-spacing: 4px !important;
+        margin: 15px 0 !important;
+    }
+    
+    .cute-face {
+        font-size: 40px !important;
+    }
+    
+    .eyes {
+        font-size: 48px !important;
+        margin: 0 15px !important;
+    }
+    
+    .blush {
+        font-size: 32px !important;
+    }
+    
+    .bow {
+        font-size: 32px !important;
+    }
+    
+    h1 {
+        font-size: 20px !important;
+        margin: 15px 0 !important;
+    }
+    
+    .menu {
+        padding: 18px !important;
+        margin: 20px 0 !important;
+    }
+    
+    .menu div {
+        font-size: 16px !important;
+        margin: 10px 0 !important;
+    }
+    
+    .merry {
+        font-size: 18px !important;
+    }
+    
+    .section-title {
+        font-size: 16px !important;
+    }
+    
+    .section-text {
+        font-size: 14px !important;
+    }
+    
+    .back-link a {
+        font-size: 15px !important;
+        padding: 12px 20px !important;
+    }
+}
+
 .hearts {
     color: #ff6bb3;
     font-size: 12px;
