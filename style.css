@@ -36,69 +36,87 @@ body::before {
     margin-bottom: 20px;
 }
 
-/* スマホ対応 */
-@media (max-width: 768px) {
+/* スマホ対応 - 大幅拡大版 */
+@media screen and (max-width: 768px) {
     .container {
-        width: 90% !important;
-        max-width: 350px !important;
-        padding: 25px !important;
-        margin-top: 15px !important;
-        margin-bottom: 15px !important;
+        width: 95% !important;
+        max-width: none !important;
+        min-width: 320px !important;
+        padding: 30px !important;
+        margin: 10px auto !important;
+        font-size: 1.2em !important;
     }
-    
+
     .hearts {
-        font-size: 16px !important;
-        letter-spacing: 4px !important;
-        margin: 15px 0 !important;
-    }
-    
-    .cute-face {
-        font-size: 40px !important;
-    }
-    
-    .eyes {
-        font-size: 48px !important;
-        margin: 0 15px !important;
-    }
-    
-    .blush {
-        font-size: 32px !important;
-    }
-    
-    .bow {
-        font-size: 32px !important;
-    }
-    
-    h1 {
         font-size: 20px !important;
-        margin: 15px 0 !important;
-    }
-    
-    .menu {
-        padding: 18px !important;
+        letter-spacing: 6px !important;
         margin: 20px 0 !important;
     }
-    
+
+    .cute-face {
+        font-size: 50px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .eyes {
+        font-size: 60px !important;
+        margin: 0 20px !important;
+    }
+
+    .blush {
+        font-size: 40px !important;
+    }
+
+    .bow {
+        font-size: 40px !important;
+        margin-top: -10px !important;
+    }
+
+    h1 {
+        font-size: 28px !important;
+        margin: 20px 0 !important;
+    }
+
+    .menu {
+        padding: 25px !important;
+        margin: 25px 0 !important;
+        border-radius: 15px !important;
+    }
+
     .menu div {
-        font-size: 16px !important;
-        margin: 10px 0 !important;
+        font-size: 20px !important;
+        margin: 15px 0 !important;
+        padding: 5px !important;
     }
-    
+
     .merry {
-        font-size: 18px !important;
+        font-size: 22px !important;
+        line-height: 1.8 !important;
     }
-    
+
+    .image-area {
+        padding: 25px !important;
+        margin: 25px 0 !important;
+    }
+
     .section-title {
-        font-size: 16px !important;
+        font-size: 20px !important;
+        margin-bottom: 15px !important;
     }
-    
+
     .section-text {
-        font-size: 14px !important;
+        font-size: 18px !important;
+        line-height: 1.8 !important;
     }
-    
+
+    .profile-section {
+        padding: 25px !important;
+        margin: 25px 0 !important;
+    }
+
     .back-link a {
-        font-size: 15px !important;
-        padding: 12px 20px !important;
+        font-size: 18px !important;
+        padding: 15px 25px !important;
     }
 }
 
