@@ -1,0 +1,181 @@
+body {
+    background: url('https://sozaino.site/wp-content/uploads/2021/03/yumekawab01_.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+    z-index: -1;
+}
+
+
+
+.container {
+    width: 240px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border: 3px solid #ff99cc;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 153, 204, 0.3);
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hearts {
+    color: #ff6bb3;
+    font-size: 12px;
+    margin: 12px 0;
+    letter-spacing: 3px;
+}
+
+.profile {
+    margin: 15px 0;
+}
+
+.avatar {
+    margin: 10px 0;
+    position: relative;
+}
+
+.cute-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #ff69b4;
+    margin-bottom: 8px;
+}
+
+.eyes {
+    margin: 0 12px;
+    font-size: 36px;
+    color: #ff1493;
+}
+
+.blush {
+    color: #ffb6c1;
+    font-size: 24px;
+}
+
+.bow {
+    font-size: 24px;
+    margin-top: -8px;
+}
+
+h1 {
+    color: #ff1493;
+    font-size: 15px;
+    margin: 12px 0;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+    line-height: 1.2;
+}
+
+.menu {
+    background-color: #ffe6f2;
+    border: 2px solid #ff99cc;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 15px 0;
+}
+
+.menu div {
+    color: #ff1493;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 6px 0;
+}
+
+.image-area {
+    background-color: #fff0f5;
+    border: 2px dashed #ff99cc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.merry {
+    color: #ff6bb3;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer {
+    color: #999;
+    font-size: 11px;
+    margin-top: 20px;
+    border-top: 1px dotted #ff99cc;
+    padding-top: 10px;
+}/* プロフ
+ィールページ用スタイル */
+.profile-content {
+    margin: 20px 0;
+}
+
+.profile-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #ff99cc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.section-title {
+    color: #ff1493;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.section-text {
+    color: #ff6bb3;
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+.back-link {
+    margin: 20px 0;
+}
+
+.back-link a {
+    color: #ff1493;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px 15px;
+    border: 2px solid #ff99cc;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.back-link a:hover {
+    background-color: rgba(255, 153, 204, 0.3);
+}
+
+.menu a {
+    color: #ff1493;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
